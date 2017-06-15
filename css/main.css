@@ -4,7 +4,15 @@ html {
   padding: 0 30px;
 }
 body {
-  font-family: helvatica, arial, sans;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: helvetica, arial, sans;
+}
+.content-container {
+  flex-grow: 1;
+  padding-top: 10vh;
+  width: 100%;
 }
 h1 {
   font-size: 7vw;
@@ -117,9 +125,9 @@ h2 ~ p {
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
+  background-size: cover;
   box-sizing: border-box;
-  height: 100vh;
-  padding-top: 10vh;
+  height: 90vh;
 }
 .full-hero:after {
   bottom: 2vh;
@@ -134,7 +142,6 @@ h2 ~ p {
 }
 .hero-home {
   background-image: url(/images/shark.jpg);
-  background-size: cover;
   background-position: center top;
 }
 .hero-content {
