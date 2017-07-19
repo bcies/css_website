@@ -351,10 +351,12 @@ h2 ~ p {
 .post-header {
   margin-bottom: 1.5em;
 }
+.blog-title-list img,
 .post-header img,
 .post-header .social-link {
   margin-right: 0.5em;
 }
+.blog-title-list img,
 .post-header img {
   border-radius: 99px;
   display: inline-block;
